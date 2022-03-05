@@ -18,7 +18,7 @@ IP_ADDR=$(hostname -I | awk '{print $1}')
 MAC_ADDR=$(ip link show | grep link/ether | awk '{print $2}')
 SUDO_LOG=$(journalctl _COMM=sudo | grep COMMAND | wc -l)
 
-echo  "
+wall "
        ------------------------------------------------
        #Architecture    : $ARCH
        #Physical CPUs   : $PCPU
