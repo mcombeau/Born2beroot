@@ -48,3 +48,10 @@ Installation instructions below are a work in progress.
 16. Done.
 17. Configure encrypted volumes.
 18. Yes write changes.
+
+...
+WIP!
+...
+
+---
+Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
