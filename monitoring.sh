@@ -20,16 +20,16 @@ SUDO_LOG=$(journalctl _COMM=sudo | grep COMMAND | wc -l)
 
 wall "
        ------------------------------------------------
-       #Architecture    : $ARCH
-       #Physical CPUs   : $PCPU
-       #Virtual CPUs    : $VCPU
-       #Memory Usage    : $RAM_USED/$RAM_TOTAL ($RAM_PERC)
-       #Disk Usage      : $DISK_USED/$DISK_TOTAL ($DISK_PERC)
-       #CPU Load        : $CPU_LOAD
-       #Last Boot       : $LAST_BOOT
-       #LVM use         : $LVM
-       #TCP Connections : $TCP ESTABLISHED
-       #Users logged    : $USER_LOG
-       #Network         : $IP_ADDR ($MAC_ADDR)
-       #Sudo            : $SUDO_LOG commands used
+       Architecture    : $ARCH
+       Physical CPUs   : $PCPU
+       Virtual CPUs    : $VCPU
+       Memory Usage    : $RAM_USED/$RAM_TOTAL ($RAM_PERC)
+       Disk Usage      : $DISK_USED/$DISK_TOTAL ($DISK_PERC)
+       CPU Load        : $CPU_LOAD
+       Last Boot       : $LAST_BOOT
+       LVM use         : $LVM
+       TCP Connections : $TCP ESTABLISHED
+       Users logged    : $USER_LOG
+       Network         : $IP_ADDR ($MAC_ADDR)
+       Sudo            : $SUDO_LOG commands used
        ------------------------------------------------"
