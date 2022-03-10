@@ -1,15 +1,15 @@
 #!/bin/bash
 
 ARCH=$(uname -srvmo)
-PCPU=$(grep processor /proc/cpuinfo | wc -l)
-VCPU=$(grep processor /proc/cpuinfo | wc -l)
+PCPU=$(lscpu | head -9 | grep "CPU(s):" | awk '{print $2}')
+VCPU=$(lscpu | head -9 | grep -e "CPU(s):" -e "Core(s)" -e "Thread(s)" | xargs | awk '{print $2 * $6 * $10}')
 RAM_TOTAL=$(free -h | grep Mem | awk '{print $2}')
 RAM_USED=$(free -h | grep Mem | awk '{print $3}')
 RAM_PERC=$(free -k | grep Mem | awk '{printf("%.2f%%"), $3 / $2 * 100}')
 DISK_TOTAL=$(df -h --total | grep total | awk '{print $2}')
 DISK_USED=$(df -h --total | grep total | awk '{print $3}')
 DISK_PERC=$(df -k --total | grep total | awk '{print $5}')
-CPU_LOAD=$(top -bn1 | grep '^%Cpu' | cut -c 9- | xargs | awk '{printf("%.1f%%"), $1 + $3}')
+CPU_LOAD=$(top -bn1 | grep '^%Cpu' | xargs | awk '{printf("%.1f%%"), $2 + $4}')
 LAST_BOOT=$(who -b | awk '{print($3 " " $4)}')
 LVM=$(if [ $(lsblk | grep lvm | wc -l) -eq 0 ]; then echo no; else echo yes; fi)
 TCP=$(grep TCP /proc/net/sockstat | awk '{print $3}')
