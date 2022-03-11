@@ -299,7 +299,7 @@ Write [```monitoring.sh```](https://github.com/mcombeau/Born2beroot/blob/main/mo
 
 Check the following commands to figure out how to write the script:
 * ```uname``` : architecture information
-* ```lscpu``` : CPU information
+* ```/proc/cpuinfo``` : CPU information
 * ```free``` : RAM information
 * ```df``` : disk information
 * ```top -bn1``` : process information
