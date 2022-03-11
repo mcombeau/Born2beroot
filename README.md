@@ -1,5 +1,5 @@
 # Born2beroot
-The 42 project Born2beroot explores the fundamentals of system administration by inviting us to instal and configure a virtual machine with VirtualBox.
+The 42 project Born2beroot explores the fundamentals of system administration by inviting us to install and configure a virtual machine with VirtualBox.
 
 ## Pre-requisites
 * [Oracle VirtualBox](https://www.virtualbox.org/) (6.1 at the time of this writing).
