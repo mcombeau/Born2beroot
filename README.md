@@ -1,6 +1,18 @@
 # Born2beroot
 The 42 project Born2beroot explores the fundamentals of system administration by inviting us to install and configure a virtual machine with VirtualBox.
 
+---
+
+:us: For a more detailed guide, read my articles in English about this project: 
+* [Born2beroot 01: Creating a Debian Virtual Machine](https://www.codequoi.com/en/born2beroot-01-creating-a-debian-virtual-machine/)
+* [Born2beroot 02: Configuring a Debian Virtual Server](https://www.codequoi.com/en/born2beroot-02-configuring-a-debian-virtual-server/)
+
+:fr: Pour un guide plus en profondeur, lire mes articles en français sur ce projet : 
+* [Born2beroot 01 : créer une machine virtuelle Debian](https://www.codequoi.com/born2beroot-01-creer-une-machine-virtuelle-debian/)
+* [Born2beroot 02 : configurer un serveur virtuel Debian](https://www.codequoi.com/born2beroot-02-configurer-un-serveur-virtuel-debian/)
+
+---
+
 ## Pre-requisites
 * [Oracle VirtualBox](https://www.virtualbox.org/) (6.1 at the time of this writing).
 * [Debian](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/) (11.2.0 at the time of this writing).
