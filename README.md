@@ -13,6 +13,9 @@ The 42 project Born2beroot explores the fundamentals of system administration by
 
 ---
 
+## Status
+Awaiting evaluation.
+
 ## Pre-requisites
 * [Oracle VirtualBox](https://www.virtualbox.org/) (6.1 at the time of this writing).
 * [Debian](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/) (11.2.0 at the time of this writing).
