@@ -1,8 +1,8 @@
 #!/bin/bash
 
 ARCH=$(uname -srvmo)
-PCPU=$(grep 'physical id' /proc/cpuinfo | uniq | wc-l)
-VCPU=$(grep processor /proc/cpuinfo | uniq | wc-l)
+PCPU=$(grep 'physical id' /proc/cpuinfo | uniq | wc -l)
+VCPU=$(grep processor /proc/cpuinfo | uniq | wc -l)
 RAM_TOTAL=$(free -h | grep Mem | awk '{print $2}')
 RAM_USED=$(free -h | grep Mem | awk '{print $3}')
 RAM_PERC=$(free -k | grep Mem | awk '{printf("%.2f%%"), $3 / $2 * 100}')
