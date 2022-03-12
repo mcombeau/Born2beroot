@@ -347,6 +347,11 @@ Or, if the wall command isn't incorporated into the monitoring script:
 ```bash
 */10 * * * * bash /root/monitoring.sh | wall
 ```
+From here, ```monitoring.sh``` will be executed every 10th minute. To make it execute every ten minutes **from system startup**, we can create a [```sleep.sh```](https://github.com/mcombeau/Born2beroot/blob/main/sleep.sh) script that calculates the delay between server startup time and the tenth minute of the hour, then add it to the cron job to apply the delay.
+```bash
+*/10 * * * * bash /root/sleep.sh && bash /root/monitoring.sh
+```
+
 ## Signature.txt
 To extract the VM's signature for the correction, go to the Virtual Box VMs folder in your local computer:
 * Windows: ```%HOMEDRIVE%%HOMEPATH%\VirtualBox VMs\```
