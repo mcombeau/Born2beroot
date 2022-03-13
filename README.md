@@ -352,6 +352,12 @@ From here, ```monitoring.sh``` will be executed every 10th minute. To make it ex
 */10 * * * * bash /root/sleep.sh && bash /root/monitoring.sh
 ```
 
+## Failed to send host log message
+The error message that appears at VM boot, "[drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message" can easily be fixed. It is a graphics controller error. All we have to do is:
+* Shut down VM
+* In VirtualBox, go to VM settings
+* ```Display``` >> ```Screen``` >> ```Graphics Controller``` >> Choose ```VBoxVGA```.
+
 ## Signature.txt
 To extract the VM's signature for the correction, go to the Virtual Box VMs folder in your local computer:
 * Windows: ```%HOMEDRIVE%%HOMEPATH%\VirtualBox VMs\```
