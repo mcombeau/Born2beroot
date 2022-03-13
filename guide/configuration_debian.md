@@ -4,7 +4,7 @@ This guide covers the installation of sudo, UFW, SSH, Password Policy, monitorin
 
 ---
 
-:us: For a more detailed guide, read my articlee in English: 
+:us: For a more detailed guide, read my article in English: 
 * [Born2beroot 02: Configuring a Debian Virtual Server](https://www.codequoi.com/en/born2beroot-02-configuring-a-debian-virtual-server/)
 
 :fr: Pour un guide plus en profondeur, lire mon article en français : 
