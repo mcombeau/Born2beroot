@@ -221,7 +221,8 @@ $ sudo apt install fail2ban
 $ sudo systemctl start fail2ban
 $ sudo systemctl enable fail2ban
 
-$ sudo systemctl status fail2ban```
+$ sudo systemctl status fail2ban
+```
 
 Create ```/etc/fail2ban/jail.local``` local cofiguration file.
 ```bash
