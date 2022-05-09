@@ -26,7 +26,7 @@ There is a [configuration guide](https://github.com/mcombeau/Born2beroot/blob/ma
 5. Create a virtual hard disk now.
 6. ```VDI```.
 7. ```Dynamically allocated```.
-8. ```30GB``` if doing bonuses. ```12GB``` is enough if not.
+8. ```10 to 13 GB``` is enough for both mandatory and bonus parts.
 9. Start Born2beroot virtual machine.
 
 ## Installing Debian
