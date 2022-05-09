@@ -62,13 +62,13 @@ Create a volume group:
 3. ```Create Volume Group``` >> ```LVMGroup``` >> ```/dev/mapper/sda5_crypt```.
 
 Create Logical Volumes:
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```root``` >> ```2.8G``` or ```10G``` for bonus
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```home``` >> ```3.8G``` or ```5G``` for bonus
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```swap``` >> ```1G``` or ```2.3G``` for bonus
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```tmp``` >> ```3G```
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```srv``` >> ```3G```
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```var``` >> ```3G```
-* ```Create Logical Volume``` >> ```LVMGroup``` >> ```var-log``` >> ```4G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```root``` >> ```2.8G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```home``` >> ```2G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```swap``` >> ```1G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```tmp``` >> ```2G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```srv``` >> ```1.5G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```var``` >> ```2G```
+* ```Create Logical Volume``` >> ```LVMGroup``` >> ```var-log``` >> ```2G```
 
 When done, ```Display configuration details``` to double check & ```Finish```.
 
