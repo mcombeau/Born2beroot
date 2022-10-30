@@ -30,18 +30,4 @@ That said, I hope these guides can be useful if you're stuck or simply curious t
 * [Bonus](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md)
 
 ---
-
-:us: Read my articles in English about this project: 
-* [Born2beroot 01: Creating a Debian Virtual Machine](https://www.codequoi.com/en/born2beroot-01-creating-a-debian-virtual-machine/)
-* [Born2beroot 02: Configuring a Debian Virtual Server](https://www.codequoi.com/en/born2beroot-02-configuring-a-debian-virtual-server/)
-* [Born2beroot 03: Installing WordPress on a Debian Server](https://www.codequoi.com/en/born2beroot-03-installing-wordpress-on-a-debian-server/)
-
-:fr: Lire mes articles en français sur ce projet : 
-* [Born2beroot 01 : créer une machine virtuelle Debian](https://www.codequoi.com/born2beroot-01-creer-une-machine-virtuelle-debian/)
-* [Born2beroot 02 : configurer un serveur virtuel Debian](https://www.codequoi.com/born2beroot-02-configurer-un-serveur-virtuel-debian/)
-* [Born2beroot 03 : installer WordPress sur un serveur Debian](https://www.codequoi.com/born2beroot-03-installer-wordpress-sur-un-serveur-debian/)
-
----
-
----
 Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
