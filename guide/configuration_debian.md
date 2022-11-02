@@ -4,17 +4,6 @@ This guide covers the installation of sudo, UFW, SSH, Password Policy, monitorin
 
 There is a [VM installation guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md) and a [bonus guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md), as well.
 
-
----
-
-:us: For a more detailed guide, read my article in English: 
-* [Born2beroot 02: Configuring a Debian Virtual Server](https://www.codequoi.com/en/born2beroot-02-configuring-a-debian-virtual-server/)
-
-:fr: Pour un guide plus en profondeur, lire mon article en français : 
-* [Born2beroot 02 : configurer un serveur virtuel Debian](https://www.codequoi.com/born2beroot-02-configurer-un-serveur-virtuel-debian/)
-
----
-
 ## Sudo Setup
 
 Log in as root:
