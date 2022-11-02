@@ -4,16 +4,6 @@ Installing the Born2beroot VM has several steps involved: the creation of the vi
 
 There is a [configuration guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/configuration_debian.md) and a [bonus guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md), as well.
 
----
-
-:us: For a more detailed guide, read my article in English: 
-* [Born2beroot 01: Creating a Debian Virtual Machine](https://www.codequoi.com/en/born2beroot-01-creating-a-debian-virtual-machine/)
-
-:fr: Pour un guide plus en profondeur, lire mon article en français : 
-* [Born2beroot 01 : créer une machine virtuelle Debian](https://www.codequoi.com/born2beroot-01-creer-une-machine-virtuelle-debian/)
-
----
-
 ## Pre-requisites
 * [Oracle VirtualBox](https://www.virtualbox.org/) (6.1 at the time of this writing).
 * [Debian](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/) (11.2.0 at the time of this writing).
