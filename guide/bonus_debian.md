@@ -4,16 +4,6 @@ For the Born2beroot bonuses, we have to install WordPress with Lighttpd, MariaDB
 
 There is a [VM installation guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md) and a [configuration guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/configuration_debian.md), as well.
 
----
-
-:us: For a more detailed guide, read my article in English: 
-* [Born2beroot 03: Installing WordPress on a Debian Server](https://www.codequoi.com/en/born2beroot-03-installing-wordpress-on-a-debian-server/)
-
-:fr: Pour un guide plus en profondeur, lire mon article en français : 
-* [Born2beroot 03 : installer WordPress sur un serveur Debian](https://www.codequoi.com/born2beroot-03-installer-wordpress-sur-un-serveur-debian/)
-
----
-
 ## Installing WordPress
 
 ### Installing PHP
