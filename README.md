@@ -25,7 +25,7 @@ That said, I hope these guides can be useful if you're stuck or simply curious t
 ---
 
 [Github Born2beroot Debian guide](https://github.com/mcombeau/Born2beroot/tree/main/guide):
-* [Istallation](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md)
+* [Installation](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md)
 * [Configuration](https://github.com/mcombeau/Born2beroot/blob/main/guide/configuration_debian.md)
 * [Bonus](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md)
 
