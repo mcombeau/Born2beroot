@@ -176,7 +176,7 @@ Create WordPress configuration file:
 $ sudo mv /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 ```
 
-Edit ```/var/www/html/wordpress/wp-config.php``` with database info:
+Edit ```/var/www/html/wp-config.php``` with database info:
 ```php
 <?php
 /* ... */
