@@ -81,13 +81,17 @@ Scroll down & ```Finish partitioning and write changes to disk```. ```Yes```.
 5. Uncheck all software.
 6. ```Yes```, install GRUB >> ```/dev/sda```
 7. ```Continue```.
-Installation complete! The virtual machine will now reboot. Enter encryption password and log into created user.
 
-We can verify that the install went correctly by running the following commands:
+---
+Installation fini BRAVO!!!
+
+Entrer le mot de passe de cryptage quevous avez mis.
+Votre login ou root et mettre le mot de passe qui correspond.
+
+A present Verifions le partitionement et que cela correspond bien avec ce que veux le sujet.
 ```bash
 $ lsblk
-$ cat /etc/os-release
 ```
 
 ---
-Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
+Fais par yzaoui: y.zaoui.pro@gmail.com | LinkedIn: [Yassine Zaoui](https://www.linkedin.com/in/yassine-zaoui-23b005229/).
