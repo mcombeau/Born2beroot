@@ -29,5 +29,7 @@ That said, I hope these guides can be useful if you're stuck or simply curious t
 * [Configuration](https://github.com/mcombeau/Born2beroot/blob/main/guide/configuration_debian.md)
 * [Bonus](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md)
 
+:fr: Pour un guide en français, je conseille vivement le [guide B2br de yzaoui](https://github.com/yatsuZ/B2BR).
+
 ---
 Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
